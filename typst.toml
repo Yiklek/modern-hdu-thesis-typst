@@ -1,0 +1,16 @@
+[package]
+name = "modern-hdu-thesis-typst"
+version = "0.0.1"
+entrypoint = "lib.typ"
+authors = ["Yiklek","OrangeX4"]
+license = "MIT"
+description = "杭州电子科技大学学位论文模板。Hangzhou Dianzi University Thesis."
+repository = "https://github.com/Yiklek/modern-hdu-thesis-typst"
+keywords = ["Hangzhou Dianzi University", "thesis"]
+categories = ["thesis"]
+exclude = ["imgs"]
+
+[template]
+path = "template"
+entrypoint = "thesis.typ"
+thumbnail = "thumbnail.png"
